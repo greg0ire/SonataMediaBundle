@@ -51,7 +51,7 @@ Next, add the following routing files:
         prefix: /media
 
 
-Then you must configure the interaction with the orm and add the mediaBundles settings:
+Then you must configure the interaction with the orm and add the media bundle's settings:
 
 Doctrine ORM:
 
