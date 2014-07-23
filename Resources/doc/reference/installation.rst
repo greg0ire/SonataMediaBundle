@@ -38,7 +38,7 @@ Register the new bundle into your AppKernel:
       );
   }
 
-Next, add the correct routing files:
+Next, add the following routing files:
 
 .. code-block:: yaml
 
