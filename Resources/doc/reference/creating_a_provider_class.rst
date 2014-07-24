@@ -17,15 +17,15 @@ asset:
 * storing the media information (metadata)
 
 A provider class is always linked to a ``Filesystem`` and a ``CDN``. The
-filesystem abstraction uses the ``Gaufrette`` library. For now there is
-only 2 abstracted filesystem available : ``Local`` and ``FTP``. The ``CDN``
-is used to generated the media asset public url.
+filesystem abstraction uses the ``Gaufrette`` library. For now there are
+only 2 abstracted filesystems available : ``Local`` and ``FTP``. The ``CDN``
+is used to generate the media asset public url.
 
 By default the filesystem and the CDN use the local filesystem and the current
 server for the CDN.
 
 In other words, when you create a provider, you don't need to worry about
-how media assets are going to be store on the filesystem.
+how media assets are going to be stored on the filesystem.
 
 Media Entity
 ------------
@@ -34,7 +34,7 @@ The ``Media`` entity comes with common media fields: ``size``, ``length``,
 ``width`` and ``height``. However the provider might require you to add more
 information. As it not possible to store all of the possible information
 into database columns, the provider class can use the ``provider_metadata``
-field to store metadata as a serialize array.
+field to store metadata as a serialized array.
 
 The ``Media`` entity has 3 other provider fields:
 
