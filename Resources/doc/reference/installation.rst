@@ -192,7 +192,7 @@ Now, you can build up your database:
     app/console doctrine:schema:[create|update]
 
 
-If they are not already created, you need to add specific folder to allow uploads from users:
+If they are not already created, you need to add specific directories to allow uploads from users:
 
 .. code-block:: sh
 
