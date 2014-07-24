@@ -381,6 +381,6 @@ From the vimeo's documentation, a video can be included like this:
         frameborder="{{ options.frameborder }}">
     </iframe>
 
-Et voilà! Of course you should test the provider class. There are many examples
+*Et voilà!* Of course you should test the provider class. There are many examples
 in the ``Tests`` folder. The source code is available in the class
 ``Sonata\MediaBundle\Provider\VimeoProvider``.
