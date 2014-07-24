@@ -119,7 +119,7 @@ Doctrine PHPCR:
 .. note::
 
     You can define formats per provider type. You might want to set
-    a transversal ``admin`` format to be used by the ``mediaadmin`` class.
+    a transversal ``admin`` format to be used by the ``MediaAdmin`` class.
 
 Also, you can determine the resizer to use; the default value is
 ``sonata.media.resizer.simple`` but you can change it to ``sonata.media.resizer.square``
