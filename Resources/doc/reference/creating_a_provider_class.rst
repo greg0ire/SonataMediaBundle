@@ -74,7 +74,7 @@ Take this video, for example:
      "video_id":"21216091"
    }
 
-The metadata contains all information we want.
+The metadata contains all the information we want.
 
 Initialize the class
 --------------------
@@ -100,7 +100,7 @@ the workflow is not the same:
 
 * *create*: displays only one input text representing the video identifier;
 
-* *edit*: displays all information about the media: the edit form should not
+* *edit*: displays all the information about the media: the edit form should not
   be used to edit the metadata information as the metadata is only used
   internally by the provider class.
 
