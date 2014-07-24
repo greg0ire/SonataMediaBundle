@@ -146,7 +146,7 @@ entities for the media::
 
 .. note::
 
-    To be able to generate domain objects, you need to have a database driver configure in your project.
+    To be able to generate domain objects, you need to have a database driver configured in your project.
     If it's not the case, just follow this:
     http://symfony.com/doc/current/book/doctrine.html#configuring-the-database
 
