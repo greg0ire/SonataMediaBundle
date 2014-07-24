@@ -198,6 +198,8 @@ If they are not already created, you need to add specific directories to allow u
 
     mkdir web/uploads
     mkdir web/uploads/media
-    chmod -R 0777 web/uploads
+
+Setup permissions on these directories with `the same method you are already using
+for the cache and log directories<http://symfony.com/doc/current/book/installation.html#configuration-and-setup>`_
 
 Then you can visit your admin dashboard on http://my-server/admin/dashboard
